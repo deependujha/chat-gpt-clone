@@ -1,0 +1,6 @@
+/* write media query to hide navbar in mobile */
+@media (max-width: 768px) {
+	.navbar {
+		display: none;
+	}
+}
