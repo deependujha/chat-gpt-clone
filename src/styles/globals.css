@@ -23,4 +23,28 @@
   .scrollbar::-webkit-scrollbar-thumb:hover {
     background: white;
   }
+
+  .scrollbarMain::-webkit-scrollbar {
+    width: 15px;
+    height: 20px;
+  }
+
+  .scrollbarMain::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: #131619;
+  }
+
+  .scrollbarMain::-webkit-scrollbar-thumb {
+    background: #E223D6;
+    border-radius: 100vh;
+    border: 3px solid ;
+  }
+
+  .scrollbarMain::-webkit-scrollbar-thumb:hover {
+    background: pink;
+  }
+}
+
+.google-font{
+  font-family: 'Architects Daughter', cursive;
 }

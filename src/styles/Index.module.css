@@ -3,4 +3,15 @@
 	.navbar {
 		display: none;
 	}
+
+	.inputField {
+		width: 80vw;
+	}
+}
+
+/* write media query to show navbar in desktop */
+@media (min-width: 769px) {
+	.inputField {
+		width: 50vw;
+	}
 }
