@@ -24,14 +24,16 @@ const InputBox = () => {
 					value={inputText}
 					onChange={(e) => setInputText(e.target.value)}
 					onKeyDown={handleKeyPress}
+					placeholder="Type your message here..."
 				/>
 				<div className="px-3 my-auto hover:cursor-pointer" onClick={onBtnClick}>
 					<Image src="/svg/SendIcon.svg" width={30} height={30} alt="send" />
 				</div>
-            </div>
-            <div className='flex justify-center text-center px-2 py-2'>
-                `Chat-GPT clone` is made for learning purposes only. OpenAI has not endorsed this project.
-            </div>
+			</div>
+			<div className="flex justify-center text-center px-2 py-2">
+				`Chat-GPT clone` is made for learning purposes only. OpenAI has not
+				endorsed this project.
+			</div>
 		</div>
 	);
 };

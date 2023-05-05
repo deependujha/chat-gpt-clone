@@ -5,9 +5,9 @@ import MsgIcon from '../../public/svg/MsgIcon';
 
 const NavBar = () => {
 	let arr: any = [];
-	for (let i = 0; i < 100; i++) {
-		arr.push('Student - ' + i);
-	}
+	// for (let i = 0; i < 100; i++) {
+	// 	arr.push('Student - ' + i);
+	// }
 	return (
 		<div className="h-screen w-72 lg:w-80 bg-slate-800 rounded-2xl">
 			<div style={{ height: '10vh' }}>
@@ -29,9 +29,8 @@ const NavBar = () => {
 									className="text-white text-md ml-5 flex hover:bg-gray-500 h-10 py-2 rounded-lg hover:cursor-pointer"
 									key={idx}
 								>
-									{/* {item} */}
 									<MsgIcon />
-									<span className="mx-2">hello world, Deependu.</span>
+									<span className="mx-2">{item}</span>
 								</li>
 							);
 						})}
