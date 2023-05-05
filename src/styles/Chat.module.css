@@ -1,0 +1,25 @@
+/* responsive css design for chat box */
+@media (max-width: 768px) {
+	.chatBox {
+		max-width: 60vw;
+	}
+
+	.imageIcon {
+		position: relative;
+		width: 30px;
+		height: 30px;
+	}
+}
+
+/* write media query to show navbar in desktop */
+@media (min-width: 769px) {
+	.chatBox {
+		max-width: 40vw;
+	}
+
+	.imageIcon {
+		position: relative;
+		width: 40px;
+		height: 40px;
+	}
+}
